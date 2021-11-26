@@ -8,7 +8,7 @@ import Card from '../Card';
 
 function List({ data }) {
   return (
-    <Container>
+    <Container done={data.one}>
       <header>
         <h2>{data.title}</h2>
         {data.creatable && (
